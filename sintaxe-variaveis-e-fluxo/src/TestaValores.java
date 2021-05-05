@@ -1,0 +1,27 @@
+public class TestaValores {
+	
+	public static void main(String[] args) {
+		
+		int primeiro = 5;
+		int segundo = 7;
+		
+		segundo = primeiro; //segundo guardo o valor 5
+		primeiro = 10; //atribui novo valor a variável primeiro
+		
+		System.out.println(segundo); //Saída --> 5 porque as variáveis primitivas guardam
+		//valores atribuidos e não carregam referência. Assim mesmo que na linha posterior
+		//eu tenha mudado o valor da variavel primeiro para 10, a variavel segundo não 
+		//recebe essa mudança, pq fica com a atribuição da linha anterior (de cima)
+		
+		System.out.println(primeiro); //Saída --> 10 novo valor que foi atribuido (linha 9)
+		
+		
+		//Atividade - Concatenando String + inteiro --> o inteiro é transformado em string
+		String saudacao = "Olá, meu nome é ";
+		String nome = "Rômulo ";
+		String continuacao = "e minha idade é ";
+		int idade = 100;
+		System.out.println(saudacao+nome+continuacao+idade);
+	}	
+
+}

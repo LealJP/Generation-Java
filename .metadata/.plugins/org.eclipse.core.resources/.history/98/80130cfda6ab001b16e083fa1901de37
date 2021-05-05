@@ -1,0 +1,25 @@
+
+public class TestaCaracteres {
+	
+	public static void main(String[] args) {
+		char letra = 'a';
+		System.out.println(letra);
+		
+		char valor = 66; //na tabela de códigos o valor 66 corresponde ao código letra 'B'
+		System.out.println(valor);//saída = B 
+		
+		//valor = valor + 1; ñ compila, pq 'valor' é do tipo char e 1 é do tipo 'inteiro'
+		// assim a soma é o inteiro '67' que não cabe na variável char 'valor']
+		
+		valor = (char) (valor + 1); //type casting o numero inteiro 67 em char
+		System.out.println(valor); //saída = C
+		
+		String palavra = "alura cursos online tecnologia"; //String é uma referência a um objeto
+		System.out.println(palavra);
+		
+		palavra = palavra + 2020; //irá concatenar '2020' ao texto dentro da variável palavra
+		System.out.println(palavra);
+		
+	}
+
+}
