@@ -29,11 +29,6 @@ public class Exerccio1 {
 			System.out.println("\nO mairo valor é o número: " + c);
 		}
 		
-		//código alternativo
-		//else if (c >= a && c >= b) {
-			//System.out.println("\nO maior valor é o número: " + c);
-		//}
-
 	}
 
 }
