@@ -1,0 +1,25 @@
+package aula12_05_05;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in);
+		float num;
+		
+		System.out.println("\t::.. NÚMERO É PAR OU ÍMPAR ..::");
+		System.out.println("Entre com um valor: ");
+		num = leia.nextFloat();
+		
+		if (num % 2 == 0) {
+			System.out.println("O número é par!");
+		} else {
+			System.out.println("O número é ímpar!");
+		}
+
+	}
+
+}

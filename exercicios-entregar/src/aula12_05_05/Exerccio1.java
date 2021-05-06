@@ -7,6 +7,10 @@ public class Exerccio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/**
+		 * Faça um programa que receba três inteiros e diga qual deles é o maior.
+		 */
+		
 		Scanner leia = new Scanner(System.in);
 		int a, b, c;
 		

@@ -1,0 +1,40 @@
+package aula5;
+
+import java.util.Scanner;
+
+public class Exercicio7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in);
+		float a, b, c, d, e, f, x, y;
+		
+		System.out.println("\t::.. SISTEMA DE EQUAÇÕES LINEARES..::");
+		System.out.println();
+
+	}
+	
+	/*
+	real a, b, c, d, E, f, x, y
+
+	escreva("Sistema de Equações Lineares")
+	
+	escreva("\nEntre com o valor de a: ")
+	leia(a)
+	escreva("\nEntre com o valor de b: ")
+	leia(b)
+	escreva("\nEntre com o valor de c: ")
+	leia(c)
+	escreva("\nEntre com o valor de d: ")
+	leia(d)
+	escreva("\nEntre com o valor de e: ")
+	leia(E)
+	escreva("\nEntre com o valor de f: ")
+	leia(f)
+	
+	x = (c*E - b*f)/(a*E - b*d)
+	y = (a*f - c*d)/(a*E - b*d)
+
+	escreva("A solução da equação linear é S = {", x, "," ,y, "}") */
+}

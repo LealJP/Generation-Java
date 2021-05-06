@@ -1,0 +1,29 @@
+package aula12_05_05;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in);
+		double num;
+		
+		System.out.println("\t::.. NÚMERO É PAR OU ÍMPAR ..::");
+		System.out.println("Entre com um valor: ");
+		num = leia.nextDouble();
+		
+		if (num % 2 == 0) {
+			System.out.println("O número é par!");
+			double raiz = Math.sqrt(num);
+			System.out.printf("Raíz quadrada do número é %2.2f",raiz);
+		} else {
+			System.out.println("O número é ímpar!");
+			double quadrado = Math.pow(num, 2);
+			System.out.printf("O quadrado do número é %2.2f", quadrado );
+		}
+
+	}
+
+}
