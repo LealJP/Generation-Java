@@ -1,0 +1,26 @@
+package aula13_06_05;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		int idade = 0, soma21 = 0, soma50 = 0;
+		
+		//System.out.print("Digite sua idade: ");
+		//idade = leia.nextInt();
+		
+		while (idade != -99) {
+			if (idade > 0 && idade < 21) {
+				soma21++;
+			} else if (idade > 50 ) {
+				soma50++;
+			}
+			System.out.print("Digite sua idade: ");
+			idade = leia.nextInt();
+		}
+		System.out.printf("Pessoas com menos de 21 anos: ", soma21);
+		System.out.printf("Pessoas com mais de 21 anos: ", soma50);
+	} 
+}

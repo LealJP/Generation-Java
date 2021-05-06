@@ -1,0 +1,42 @@
+package aula13_06_05;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		String nome;
+		int idade = 0, genero, status, somaCalma=0, somaMulherNervosa=0, somaHomemAgressivo=0, somaOutroCalmos=0, somaCalma18=0, somaNervosa40=0, i =0;
+		
+		while (i <= 5) {
+			System.out.println("Digite sua idade: ");
+			idade = leia.nextInt();
+			System.out.print("Gênero:\n1 - Feminino\n2 - Masculino\n3 - Outro");
+			genero = leia.nextInt();
+			System.out.print("Status:\n1 - Calma\n2 - Nervosa\n3 - Agressiva");
+			status = leia.nextInt();
+			
+			if (status == 1) {
+				somaCalma++;
+			}
+			if (genero == 1 && status == 2 ) {
+				somaMulherNervosa++;
+			}
+			if (genero == 2 && status == 3) {
+				somaHomemAgressivo++;
+			}
+			if (genero == 3 && status == 1) {
+				somaOutroCalmos++;
+			}
+			if (status == 2 && idade > 40) {
+				somaNervosa40++;
+			}
+			if (status == 1 && idade < 18) {
+				somaCalma18++;
+			}
+			i++;
+		}
+	}
+}
