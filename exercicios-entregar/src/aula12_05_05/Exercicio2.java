@@ -7,6 +7,7 @@ public class Exercicio2 {
 		
 		/**
 		 * Faça um programa que entre com três números e coloque em ordem crescente
+		 * Testando modificação no gitHub
 		 */
 		
 		Scanner leia = new Scanner(System.in);
